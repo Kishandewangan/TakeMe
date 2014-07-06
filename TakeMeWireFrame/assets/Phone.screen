@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="216" y="28" name="Phone">
+    <widgets xsi:type="model:SVGImage" id="2" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" src="Android44/_phone.svg"/>
+    <widgets xsi:type="model:Panel" id="3" x="23" y="67" width="360" height="640" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="4" x="23" y="67" name="Status Bar">
+      <widgets xsi:type="model:Panel" id="5" width="360" height="25" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#444444" border="none"/>
+      <widgets xsi:type="model:Text" id="6" x="314" y="3" text="19:20" layoutParams="anchor-right|anchor-middle" foreground="#ffffff">
+        <font size="16px"/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="7" x="294" y="4" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="battery (small)" iconRotation="270"/>
+      <widgets xsi:type="model:Icon" id="8" x="275" y="4" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="signal (small)"/>
+      <widgets xsi:type="model:Icon" id="9" x="255" y="4" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="wifi (small)"/>
+      <widgets xsi:type="model:Icon" id="10" x="6" y="4" layoutParams="anchor-left|anchor-middle" foreground="#ffffff" icon="image (small)"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="11" x="23" y="660" name="Navbar">
+      <widgets xsi:type="model:Panel" id="12" width="360" height="47" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#444444" border="none"/>
+      <widgets xsi:type="model:WidgetGroup" id="13" x="60" y="4" layoutParams="anchor-center|anchor-middle" name="Back">
+        <widgets xsi:type="model:SVGImage" id="14" foreground="#cccccc" src="Android44/_nav_back.svg"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="15" x="160" y="4" layoutParams="anchor-center|anchor-middle" name="Home">
+        <widgets xsi:type="model:SVGImage" id="16" foreground="#cccccc" src="Android44/_nav_home.svg"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="17" x="261" y="4" layoutParams="anchor-center|anchor-middle" name="Recents">
+        <widgets xsi:type="model:SVGImage" id="18" foreground="#cccccc" src="Android44/_nav_recents.svg"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

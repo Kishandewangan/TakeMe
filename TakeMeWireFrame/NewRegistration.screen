@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="304" y="32" measuredWidth="406" measuredHeight="794">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android44/Devices.screen#Phone"/>
+    <overrides>
+      <widgets ref="51" link="AppStartupScreen.screen"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="2" x="390" y="192" width="243" height="69" text="Enter your 5 Peer's Contact number who are your freinds" measuredWidth="243" measuredHeight="69">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="28" x="393" y="304" measuredWidth="240" measuredHeight="183">
+    <widgets xsi:type="model:TextField" id="3" x="101" y="1" width="139" text="Text field" measuredWidth="139" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="5" width="86" height="25" text="*Peer 1* " measuredWidth="86" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="6" y="32" width="86" text="*Peer 2*" measuredWidth="86" measuredHeight="31">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="7" y="72" width="86" text="*Peer 3* " measuredWidth="86" measuredHeight="31">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="8" y="113" width="86" text="*Peer 4* " measuredWidth="86" measuredHeight="31">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="9" y="152" width="86" text="*Peer 5* " measuredWidth="86" measuredHeight="31">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="10" x="101" y="36" width="139" text="Text field" measuredWidth="139" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="11" x="101" y="76" width="139" text="Text field" measuredWidth="139" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="12" x="101" y="113" width="139" text="Text field" measuredWidth="139" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="13" x="101" y="156" width="139" text="Text field" measuredWidth="139" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="14" x="360" y="512" width="311" text="This numbers will be in your contact chain of App&#xD;&#xA;" measuredWidth="311" measuredHeight="31">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="29" x="440" y="592" measuredWidth="329" measuredHeight="48">
+    <widgets xsi:type="model:Button" id="15" width="117" height="48" text="Submit" measuredWidth="117" measuredHeight="48" link="GenerateChain&amp;Confirm.screen" style="round">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="16" x="128" y="24" width="201" height="8" text="Action" measuredWidth="201" measuredHeight="8" annotation="true" left="false" right="true" direction="bottom"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="30" x="786" y="593" width="159" height="64" text="Button to add buddies." measuredWidth="159" measuredHeight="64">
+    <font size="18px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

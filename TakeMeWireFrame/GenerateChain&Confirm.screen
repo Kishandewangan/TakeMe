@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="299" y="43" measuredWidth="406" measuredHeight="794">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android44/Devices.screen#Phone"/>
+    <overrides>
+      <widgets ref="52" link="NewRegistration.screen"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="2" x="360" y="200" width="280" height="128" text="We will generate key using your bluetooth mac address. This key will be used by your peer'c BLE device to connect to your device. Please do not distribute this key because it is confidential." measuredWidth="280" measuredHeight="128">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="3" x="372" y="392" text="Generate and Send SMS" measuredWidth="245" measuredHeight="44">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="4" x="448" y="486" width="68" text="DONE" measuredWidth="68" measuredHeight="35" link="AppHomeScreen.screen">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="5" x="528" y="504" width="264" height="8" text="Action" measuredWidth="264" measuredHeight="8" annotation="true"/>
+  <widgets xsi:type="model:TextArea" id="6" x="791" y="483" text="This will generate key and send it to peer's device. &#xD;&#xA;This will also update the Peer table with key shared" measuredWidth="346" measuredHeight="48">
+    <font size="15px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
